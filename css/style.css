@@ -1,0 +1,375 @@
+@media (min-width: 591px){
+	html,body {
+	height: 100%;
+}
+
+h1{
+	font-family: 'Croissant One', cursive;
+
+}
+body{
+	display: flex;
+	min-height: 100hv;
+	background: url(../img/fondo-de-index.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	justify-content: center;
+
+}
+
+header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: transparent;
+	border: 2px solid rgba(255. 255, 255, .5);
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 30px rgba(0, 0, 0, .3);
+	z-index: 999;
+}
+header .logo img{
+	width: 70px;
+	height: 70px;
+}
+
+header .acceso img {
+	width: 50px;
+	height: 50px;
+}
+header .logo{
+	margin-right: 39% ;
+	margin-left:0.9%;
+	width: 7px;
+	height: 70px;
+	top: 0;
+	left: 0;
+	position: fixed;
+	justify-content: space-between;
+
+}
+
+header .acceso{
+	margin-right: 0.9% ;
+	margin-left:39%;
+	width: 70px;
+	height: 70px;
+	top: 10px;
+	right: 0;
+	position: fixed;
+	justify-content: space-between;
+
+}
+
+
+
+
+.caja1{
+
+	display: inline-block;
+	margin:0 50px;
+	background: white;
+	border: 2px solid rgba(255. 255, 255, .5);
+	border-radius: 20px;
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+	margin-left:220px;
+}
+.caja2{
+	
+	background: white;
+	border: 2px solid rgba(255. 255, 255, .5);
+	border-radius: 20px;
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+	margin-right:220px; 
+}
+.imagen{
+	width: 300px;
+	height: 200px;
+	padding-left: 5px;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+
+}
+
+
+.todo{
+
+	display:flex;
+	text-align: center;
+	justify-content: center;
+	margin-top:110px;
+}
+
+
+
+
+.texto{
+	margin-left: 50px;
+	margin-right: 50px;
+
+}
+
+
+
+h2{
+    position: relative;
+}
+
+
+h2::after {
+    content: ''; 
+    position: absolute;
+    left: 33%;
+    bottom: 0;
+    width: 0%; 
+    height: 3px; 
+    background-color: black; 
+    transition: width 0.3s; 
+}
+
+
+h2:hover::after {
+    width: 35%; 
+}
+.info{
+	margin-left: 140px;
+	margin-bottom: 40px;
+
+}
+button {
+ border:0;
+ background-color: #78E1C4;
+ border-radius: 8px;
+ display: flex;
+ font-size: 18px;
+ padding: 4px;
+ cursor: pointer;
+ transition: .3s;
+}
+button span{
+	background-color: #fff;
+	padding: 14px 22px;
+	border-radius: px;
+	transition: .3s;
+}
+
+button:hover span{
+	background: none;
+}
+
+button:active{
+	transform: scale(0.9);
+}
+.a{
+	color: black;
+	font-size: 1.1e
+	text-decoration: none;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+}
+
+@media (max-width: 590px){
+
+	* {
+		margin:0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: "poppins", sans-serif;
+	}
+	html,body {
+		height: 100%;
+	}
+	
+	
+	h1{
+		font-family: 'Croissant One', cursive;
+	}
+
+	body{
+		display: flex;
+		min-height: 100hv;
+		background: url(../img/fondo-movil.jpg) no-repeat;
+		background-size: cover;
+		background-position: center;
+		text-align: center;
+		justify-content: center;
+	
+	}
+	
+	header{
+		height: 85px;
+		position: fixed;
+		width: 100%;
+		top: 0;
+		left: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: transparent;
+		border: 2px solid rgba(255. 255, 255, .5);
+		backdrop-filter: blur(20px);
+		box-shadow: 0 0 30px rgba(0, 0, 0, .3);
+		z-index: 999;
+	}
+	header .logo img{
+		width: 70px;
+		height: 70px;
+	}
+	
+	header .acceso img {
+		width: 50px;
+		height: 50px;
+	}
+	header .logo{
+		margin-right: 39% ;
+		margin-left:0.9%;
+		width: 7px;
+		height: 70px;
+		top: 0;
+		left: 0;
+		position: fixed;
+		justify-content: space-between;
+	
+	}
+	
+	header .acceso{
+		margin-right: 0.9% ;
+		margin-left:39%;
+		width: 70px;
+		height: 70px;
+		top: 10px;
+		right: 0;
+		position: fixed;
+		justify-content: space-between;
+	
+	}
+	
+	
+	
+	
+	.caja1{
+
+		margin:0 50px;
+		background: white;
+		border: 2px solid rgba(255. 255, 255, .5);
+		border-radius: 20px;
+		backdrop-filter: blur(20px);
+		box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+		justify-content: center;
+		text-align: center;
+	}
+	.caja2{
+		
+		
+		margin:0 50px;
+		background: white;
+		border: 2px solid rgba(255. 255, 255, .5);
+		border-radius: 20px;
+		backdrop-filter: blur(20px);
+		box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+		justify-content: center;
+	}
+	.imagen{
+		width: 200px;
+		height: 120px;
+		padding-left: 5px;
+		margin-top: 25px;
+		margin-left: 50px;
+		margin-right: 50px;
+	
+	}
+	
+	
+	.todo{
+	
+		
+		text-align: center;
+		justify-content: center;
+		margin-top:110px;
+	}
+	
+	
+	
+	
+	.texto{
+		margin-left: 50px;
+		margin-right: 50px;
+	
+	}
+	
+	
+	
+	h2{
+		position: relative;
+	}
+	
+	
+	h2::after {
+		content: ''; 
+		position: absolute;
+		left: 33%;
+		bottom: 0;
+		width: 0%; 
+		height: 3px; 
+		background-color: black; 
+		transition: width 0.3s; 
+	}
+	
+	
+	h2:hover::after {
+		width: 35%; 
+	}
+	.info{
+		margin-left: 140px;
+		margin-bottom: 40px;
+	
+	}
+	button {
+	 display: flex;
+	 justify-content: center;
+	 border:0;
+	 background-color: #78E1C4;
+	 border-radius: 8px;
+	 font-size: 18px;
+	 padding: 4px;
+	 cursor: pointer;
+	 transition: .3s;
+
+
+	}
+	button span{
+		background-color: #fff;
+		padding: 14px 22px;
+		border-radius: px;
+		transition: .3s;
+	}
+	
+	button:hover span{
+		background: none;
+	}
+	
+	button:active{
+		transform: scale(0.9);
+	}
+	.a{
+		color: black;
+		font-size: 1.1e
+		text-decoration: none;
+	}
+	a{
+		color: #000;
+		text-decoration: none;
+	}
+	
+
+}
